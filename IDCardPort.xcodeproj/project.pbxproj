@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A04D5E41D9D007E00D63BA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D5E31D9D007E00D63BA4 /* main.m */; };
+		2A04D5E71D9D007E00D63BA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D5E61D9D007E00D63BA4 /* AppDelegate.m */; };
+		2A04D5ED1D9D007E00D63BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D5EB1D9D007E00D63BA4 /* Main.storyboard */; };
+		2A04D5EF1D9D007E00D63BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D5EE1D9D007E00D63BA4 /* Assets.xcassets */; };
+		2A04D5F21D9D007E00D63BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D5F01D9D007E00D63BA4 /* LaunchScreen.storyboard */; };
+		2A04D6021D9D00B700D63BA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D6011D9D00B700D63BA4 /* CoreGraphics.framework */; };
+		2A04D6041D9D00C200D63BA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D6031D9D00C200D63BA4 /* Foundation.framework */; };
+		2A04D6061D9D00C900D63BA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D6051D9D00C900D63BA4 /* UIKit.framework */; };
+		2A04D6131D9D06FA00D63BA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D6121D9D06FA00D63BA4 /* ViewController.m */; };
+		2A04D6231D9D0CF300D63BA4 /* Capture.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D6171D9D0CF300D63BA4 /* Capture.m */; };
+		2A04D6241D9D0CF300D63BA4 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 2A04D61A1D9D0CF300D63BA4 /* zocr0.lib */; };
+		2A04D6251D9D0CF300D63BA4 /* IdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D61D1D9D0CF300D63BA4 /* IdInfo.m */; };
+		2A04D6261D9D0CF300D63BA4 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A04D61E1D9D0CF300D63BA4 /* libexidcardios.a */; };
+		2A04D6271D9D0CF300D63BA4 /* UserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D6201D9D0CF300D63BA4 /* UserDefaults.m */; };
+		2A04D6281D9D0CF300D63BA4 /* LSIdCardCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A04D6221D9D0CF300D63BA4 /* LSIdCardCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A04D5DF1D9D007E00D63BA4 /* IDCardPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A04D5E31D9D007E00D63BA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A04D5E51D9D007E00D63BA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2A04D5E61D9D007E00D63BA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2A04D5EC1D9D007E00D63BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A04D5EE1D9D007E00D63BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A04D5F11D9D007E00D63BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A04D5F31D9D007E00D63BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A04D6011D9D00B700D63BA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2A04D6031D9D00C200D63BA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A04D6051D9D00C900D63BA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2A04D6111D9D06FA00D63BA4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2A04D6121D9D06FA00D63BA4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A04D6161D9D0CF300D63BA4 /* Capture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Capture.h; sourceTree = "<group>"; };
+		2A04D6171D9D0CF300D63BA4 /* Capture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Capture.m; sourceTree = "<group>"; };
+		2A04D6181D9D0CF300D63BA4 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		2A04D61A1D9D0CF300D63BA4 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		2A04D61B1D9D0CF300D63BA4 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		2A04D61C1D9D0CF300D63BA4 /* IdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdInfo.h; sourceTree = "<group>"; };
+		2A04D61D1D9D0CF300D63BA4 /* IdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdInfo.m; sourceTree = "<group>"; };
+		2A04D61E1D9D0CF300D63BA4 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		2A04D61F1D9D0CF300D63BA4 /* UserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaults.h; sourceTree = "<group>"; };
+		2A04D6201D9D0CF300D63BA4 /* UserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaults.m; sourceTree = "<group>"; };
+		2A04D6211D9D0CF300D63BA4 /* LSIdCardCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIdCardCodeViewController.h; sourceTree = "<group>"; };
+		2A04D6221D9D0CF300D63BA4 /* LSIdCardCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIdCardCodeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A04D5DC1D9D007E00D63BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A04D6061D9D00C900D63BA4 /* UIKit.framework in Frameworks */,
+				2A04D6261D9D0CF300D63BA4 /* libexidcardios.a in Frameworks */,
+				2A04D6041D9D00C200D63BA4 /* Foundation.framework in Frameworks */,
+				2A04D6021D9D00B700D63BA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A04D5D61D9D007E00D63BA4 = {
+			isa = PBXGroup;
+			children = (
+				2A04D6051D9D00C900D63BA4 /* UIKit.framework */,
+				2A04D6031D9D00C200D63BA4 /* Foundation.framework */,
+				2A04D6011D9D00B700D63BA4 /* CoreGraphics.framework */,
+				2A04D5E11D9D007E00D63BA4 /* IDCardPort */,
+				2A04D5E01D9D007E00D63BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A04D5E01D9D007E00D63BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D5DF1D9D007E00D63BA4 /* IDCardPort.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A04D5E11D9D007E00D63BA4 /* IDCardPort */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D6141D9D0CF300D63BA4 /* IDCardPort */,
+				2A04D5E51D9D007E00D63BA4 /* AppDelegate.h */,
+				2A04D5E61D9D007E00D63BA4 /* AppDelegate.m */,
+				2A04D6111D9D06FA00D63BA4 /* ViewController.h */,
+				2A04D6121D9D06FA00D63BA4 /* ViewController.m */,
+				2A04D5EB1D9D007E00D63BA4 /* Main.storyboard */,
+				2A04D5EE1D9D007E00D63BA4 /* Assets.xcassets */,
+				2A04D5F01D9D007E00D63BA4 /* LaunchScreen.storyboard */,
+				2A04D5F31D9D007E00D63BA4 /* Info.plist */,
+				2A04D5E21D9D007E00D63BA4 /* Supporting Files */,
+			);
+			path = IDCardPort;
+			sourceTree = "<group>";
+		};
+		2A04D5E21D9D007E00D63BA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D5E31D9D007E00D63BA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2A04D6141D9D0CF300D63BA4 /* IDCardPort */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D6151D9D0CF300D63BA4 /* libexidcard */,
+				2A04D6211D9D0CF300D63BA4 /* LSIdCardCodeViewController.h */,
+				2A04D6221D9D0CF300D63BA4 /* LSIdCardCodeViewController.m */,
+			);
+			path = IDCardPort;
+			sourceTree = "<group>";
+		};
+		2A04D6151D9D0CF300D63BA4 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D6161D9D0CF300D63BA4 /* Capture.h */,
+				2A04D6171D9D0CF300D63BA4 /* Capture.m */,
+				2A04D6181D9D0CF300D63BA4 /* commondef.h */,
+				2A04D6191D9D0CF300D63BA4 /* dicts */,
+				2A04D61B1D9D0CF300D63BA4 /* excards.h */,
+				2A04D61C1D9D0CF300D63BA4 /* IdInfo.h */,
+				2A04D61D1D9D0CF300D63BA4 /* IdInfo.m */,
+				2A04D61E1D9D0CF300D63BA4 /* libexidcardios.a */,
+				2A04D61F1D9D0CF300D63BA4 /* UserDefaults.h */,
+				2A04D6201D9D0CF300D63BA4 /* UserDefaults.m */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		2A04D6191D9D0CF300D63BA4 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				2A04D61A1D9D0CF300D63BA4 /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A04D5DE1D9D007E00D63BA4 /* IDCardPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A04D5F61D9D007E00D63BA4 /* Build configuration list for PBXNativeTarget "IDCardPort" */;
+			buildPhases = (
+				2A04D5DB1D9D007E00D63BA4 /* Sources */,
+				2A04D5DC1D9D007E00D63BA4 /* Frameworks */,
+				2A04D5DD1D9D007E00D63BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDCardPort;
+			productName = IDCardPort;
+			productReference = 2A04D5DF1D9D007E00D63BA4 /* IDCardPort.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A04D5D71D9D007E00D63BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "辜东明";
+				TargetAttributes = {
+					2A04D5DE1D9D007E00D63BA4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2A04D5DA1D9D007E00D63BA4 /* Build configuration list for PBXProject "IDCardPort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A04D5D61D9D007E00D63BA4;
+			productRefGroup = 2A04D5E01D9D007E00D63BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A04D5DE1D9D007E00D63BA4 /* IDCardPort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A04D5DD1D9D007E00D63BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A04D6241D9D0CF300D63BA4 /* zocr0.lib in Resources */,
+				2A04D5F21D9D007E00D63BA4 /* LaunchScreen.storyboard in Resources */,
+				2A04D5EF1D9D007E00D63BA4 /* Assets.xcassets in Resources */,
+				2A04D5ED1D9D007E00D63BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A04D5DB1D9D007E00D63BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A04D6231D9D0CF300D63BA4 /* Capture.m in Sources */,
+				2A04D6251D9D0CF300D63BA4 /* IdInfo.m in Sources */,
+				2A04D6131D9D06FA00D63BA4 /* ViewController.m in Sources */,
+				2A04D5E71D9D007E00D63BA4 /* AppDelegate.m in Sources */,
+				2A04D6281D9D0CF300D63BA4 /* LSIdCardCodeViewController.m in Sources */,
+				2A04D6271D9D0CF300D63BA4 /* UserDefaults.m in Sources */,
+				2A04D5E41D9D007E00D63BA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A04D5EB1D9D007E00D63BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A04D5EC1D9D007E00D63BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A04D5F01D9D007E00D63BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A04D5F11D9D007E00D63BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A04D5F41D9D007E00D63BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A04D5F51D9D007E00D63BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A04D5F71D9D007E00D63BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = IDCardPort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardPort/libexidcard",
+					"$(PROJECT_DIR)/IDCardPort/IDCardPort/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmesm.IDCardPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A04D5F81D9D007E00D63BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = IDCardPort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardPort/libexidcard",
+					"$(PROJECT_DIR)/IDCardPort/IDCardPort/libexidcard",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xmesm.IDCardPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A04D5DA1D9D007E00D63BA4 /* Build configuration list for PBXProject "IDCardPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A04D5F41D9D007E00D63BA4 /* Debug */,
+				2A04D5F51D9D007E00D63BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A04D5F61D9D007E00D63BA4 /* Build configuration list for PBXNativeTarget "IDCardPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A04D5F71D9D007E00D63BA4 /* Debug */,
+				2A04D5F81D9D007E00D63BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A04D5D71D9D007E00D63BA4 /* Project object */;
+}
